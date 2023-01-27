@@ -1,0 +1,150 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    padding-top: 5px;
+    margin-left: 20px;
+    width: 10%;
+}
+
+.bandera{
+    padding-top: 1px;
+    margin-left: 940px;
+    width: 10%;
+    justify-content:first baseline;
+ }
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content:first baseline;
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+}
+
+p{
+    text-align: center;
+    margin bottom: 300px;
+    margin top: 300px;
+}
+
+.text-area {
+    border-radius: 24px;
+    box-shadow: 6px 4px 8px;
+    background: #39e704;
+    border: 5px solid #0A3871;
+    margin-top: 50px;
+}
+
+.text {
+    border: none;
+    color: #0A3871;
+    margin-top:50px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:#0A3871; }
+    .text-area:focus {
+        outline: none;
+}
+
+.mensaje{
+    background: #FFFFFF;
+    background-image: url("imagenes/detective.jpeg");
+    background-repeat: no-repeat;
+    box-shadow: 6px 4px 8px;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left:20 px;
+    margin-top: 87px;
+    position; fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #39e704;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+}
+
+.btn-encriptar {
+    background: #39e704;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+}
+
+.btn-copiar {
+    background: #d2e6f7;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 110px;
+    position: absolute;
+}
+
+.informacion {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 2px;
+    width: 400px;
+    
+}
+.diamante{
+    padding-top: 10px;
+    margin-left: 1px;
+   
+}
+
+footer{
+    text-align: center;
+    margin-block: center;
+    width: 940px;;
+    height: 100%;
+    padding:40px;
+
+}
+.desafio{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin left: 100px;
+
+}
+
+@media only screen and (max-width:300px) {
+    .mensaje,.botones,.text-area,.bandera,.logo,.desafio{
+        width: auto;
+    }
+}
